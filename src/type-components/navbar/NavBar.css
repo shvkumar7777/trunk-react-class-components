@@ -1,0 +1,35 @@
+.appnavbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    margin: 0;
+    background: rgb(26, 17, 17);
+    box-shadow: 0 3px 5px rgb(148, 128, 128);
+    z-index: 99;
+}
+.nav__left{
+    display: flex;
+    align-items: center;
+}
+.app__logo{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.navbar__title{
+    margin-right: 10px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin: 0 10px;
+}
+
+.navbar__link{
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: aliceblue;
+    font-weight: bold;
+}

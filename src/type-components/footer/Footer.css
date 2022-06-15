@@ -1,0 +1,14 @@
+.footer__container{
+    height: 40px;
+    background: rgba(253, 230, 210, 0.4);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.footer__link{
+    text-decoration: underline;
+    color: beige;
+}

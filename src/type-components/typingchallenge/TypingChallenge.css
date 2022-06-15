@@ -1,0 +1,21 @@
+.challenge__container{
+    /* height: 10%; */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.details__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.realchallenge__container{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}

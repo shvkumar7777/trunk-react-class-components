@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app{
+    background: #262a2b;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

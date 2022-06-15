@@ -1,0 +1,44 @@
+.landing__container{
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    flex-wrap: wrap;
+    margin: 0;
+    color: azure;
+    font-family: 'Bangers', cursive;
+}
+.loading__header{
+    font-size: 90px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    margin: 0;
+}
+.typewriter__container{
+    font-size: 80px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+
+.flash__logo{
+    width: 40vw;
+}
+
+@media (max-width:800px) {
+    .landing__container{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .flash__logo{
+        width: 80vw;
+    }
+    .loading__header{
+        margin-top: 32px;
+        text-align: center;
+    }
+    .typewriter__container{
+        text-align: center;
+    }
+}   
