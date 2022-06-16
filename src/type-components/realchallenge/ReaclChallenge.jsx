@@ -13,7 +13,7 @@ class ReaclChallenge extends Component {
             testInfo,
             onHandleInput
         } = this.props;
-        console.log('from real challenge',testInfo);
+        // console.log('from real challenge',testInfo);
  
     return (
         <div className='realchallenge__container'>

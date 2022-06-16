@@ -4,6 +4,7 @@ import TryAgain from '../Tryagain/TryAgain'
 import './TestContainer.css'
 
 class TestContainer extends Component {
+
     render() {
         const {
             selectedParagraph,
@@ -13,7 +14,8 @@ class TestContainer extends Component {
             words,
             wpm,
             testInfo,
-            onHandleInput
+            onHandleInput,
+            handleRetry
         } = this.props;
         // const timeRemaining = 10;
     return (
@@ -35,9 +37,11 @@ class TestContainer extends Component {
             ) : (
                 <div className="tryagain__con"> 
                 <TryAgain 
-                words={40} 
-                characters={120} 
-                wpm={20} />
+                words={words} 
+                characters={characters} 
+                wpm={wpm} 
+                handleRetry={handleRetry}
+                />
             </div>
             )
         }

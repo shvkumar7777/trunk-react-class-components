@@ -13,7 +13,8 @@ class ChallengeSection extends Component {
             words,
             wpm,
             testInfo,
-            onHandleInput
+            onHandleInput,
+            handleRetry
         } = this.props;
 
     return (
@@ -30,6 +31,7 @@ class ChallengeSection extends Component {
             wpm={wpm}
             testInfo={testInfo}
             onHandleInput={onHandleInput}
+            handleRetry={handleRetry}
             />
         </div>
     )

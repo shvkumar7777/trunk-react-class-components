@@ -4,10 +4,8 @@ import './TryAgain.css'
 class TryAgain extends Component {
     
     render() {
-        const {words,characters,wpm} = this.props;
-        function handleRetry(){
-
-        };
+        const {handleRetry, words,characters,wpm} = this.props;
+        
     return (
         <div className='tryagain__container'>
             <h1>Test Results</h1>
@@ -23,7 +21,10 @@ class TryAgain extends Component {
                 </p>
             </div>
             <div className="buttons__container">
-                <button onClick={()=>handleRetry()}className="end__buttons retry__button">Re-try</button>
+                <button 
+                onClick={handleRetry}
+                className="end__buttons retry__button">Re-try</button>
+                
                 <a href="https://facebook.com" target="_blank" rel="noreferrer">
                     <button className="end__buttons fbshare__button">Share</button>
                 </a>
